@@ -1,0 +1,80 @@
+body{
+    background-color: darkgoldenrod
+}
+h1{
+    text-align: center;
+    color: palegreen
+}
+
+#container{
+    text-align: center;
+}
+
+#getAll{
+    background-color:yellow;
+}
+
+#submit{
+    background-color: green;
+}
+#panel{
+    border: black solid 1px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+#countryspot{
+    border: black solid 1px;
+    width: 250px;
+    height: 250px;
+    font-size: 10px;
+    margin: 10px;
+    position: relative;
+    background-color: blanchedalmond
+
+}
+
+#nameArea{
+    position: relative;
+    margin: 20px;
+    left:125px;
+    height: 20px;
+    width:100px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#topLevelDomainArea {
+    position: relative;
+    margin: 20px;
+    left:125px;
+    word-wrap: break-word;
+}
+
+#capitalArea {
+    position: relative;
+    margin: 20px;
+    left:125px;
+}
+
+#currenciesArea {
+    position: relative;
+    margin: 20px;
+    top: 25px;
+    overflow: auto;
+
+
+}
+
+#flagArea {
+    position: absolute;
+    width: 100px;
+    height:100px;
+    top:30px;
+    left: 30px;
+    bottom: 175px;
+
+}
